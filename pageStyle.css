@@ -10,10 +10,9 @@ header {
     flex-flow: row nowrap;
     height: 65px;
     justify-content: flex-end;
-    background-color:lightyellow;
+    background-color: aliceblue;
     position: fixed;
     width: 100%;
-    
 }
 
 #nav-bar {
@@ -24,8 +23,6 @@ header {
     width: 100%;
     margin: 10px;
     padding: 10px;
-    /* background-color: pink; */
- 
 }
 
 a {
@@ -38,9 +35,7 @@ a {
 #header-img {
     justify-content: flex-start;
     align-items: center;
-    width: 200px;
+    width: 15%;
     height: auto;
-    /* margin: 0; */
     padding: 5px;
-    /* background-color: pink; */
 }
