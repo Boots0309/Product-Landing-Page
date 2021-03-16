@@ -73,3 +73,26 @@ label {
     padding: 5px;
     border-radius: 5px;
 }
+
+article {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: blueviolet;
+}
+
+figure {
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
