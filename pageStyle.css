@@ -140,6 +140,49 @@ p {
         }
     }
 
+    @media (min-width: 600px) and (max-width: 768px) {
+        #header {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        #header-img {
+            width: 40%;
+            height: auto;
+        }
+
+        #nav-bar {
+            display: none;
+        }
+
+        #form {
+            width: 100%;
+            display: block;
+            padding: 10px;
+        }
+
+        label {
+           margin-bottom: 10px; 
+        }
+
+        #email {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            outline: none;
+        }
+
+        #submit {
+            width: 20%;
+        }
+
+        article {
+            display: block;
+        }
+    }
+
 /* Extra small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {...} */
 
