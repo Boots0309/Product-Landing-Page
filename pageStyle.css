@@ -134,6 +134,10 @@ p {
         #submit {
             width: 20%;
         }
+
+        article {
+            display: block;
+        }
     }
 
 /* Extra small devices (phones, 600px and down) */
