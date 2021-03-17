@@ -56,10 +56,9 @@
 }
 
 label {
-    font-size: 35px;
+    /* font-size: 35px; */
     color: white;
     margin-top: 100px;
-    /* padding: 5px; */
 }
 
 #email {
@@ -97,7 +96,7 @@ p {
     padding: 10px;
 }
 
-    @media (min-width: 425px) and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
 
         #header {
             display: block;
@@ -105,7 +104,49 @@ p {
             height: auto;
         }
 
+        #header-img {
+            width: 40%;
+            height: auto;
+        }
+
         #nav-bar {
             display: none;
         }
+
+        #form {
+            width: 100%;
+            display: block;
+            padding: 10px;
+        }
+
+        label {
+           margin-bottom: 10px; 
+        }
+
+        #email {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 10px;
+            outline: none;
+        }
+
+        #submit {
+            width: 20%;
+        }
     }
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */
