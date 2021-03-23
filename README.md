@@ -8,11 +8,11 @@ User Story #1: My product landing page should have a header element with a corre
 
 User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.<!--done-->
 
-User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".<!--done-->
+User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
 
 User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.<!--done-->
 
-User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.<!--done-->
+User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
 
 User Story #6: I can watch an embedded product video with id="video".<!--done-->
 
@@ -28,10 +28,10 @@ User Story #11: Within the form, there is a submit input with a corresponding id
 
 User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit).<!--done-->
 
-User Story #13: The navbar should always be at the top of the viewport.<!--done-->
+User Story #13: The navbar should always be at the top of the viewport.
 
 User Story #14: My product landing page should have at least one media query.
 
-User Story #15: My product landing page should utilize CSS flexbox at least once. <!--done-->
+User Story #15: My product landing page should utilize CSS flexbox at least once.
 
 You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
