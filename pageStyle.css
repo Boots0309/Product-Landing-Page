@@ -42,5 +42,8 @@ a:hover {
 }
 
 #container-101 {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;    
 }
