@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0px;
-    padding: auto;
+    padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -17,6 +17,7 @@ body {
     width: 100%;
     background-color: #dcdcdc;
     padding: 10px;
+    margin-top: 0;
 }
 
 #nav-bar {
@@ -39,12 +40,40 @@ a:hover {
 
 /* main area */
 
+#container {
+    display: grid;
+}
+
 #container-101 {
-    display: block;
-    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+}
+
+#header-101 {
+    grid-area: 1 / 1 / 2 / 7;
+    background-color: blueviolet;
+}
+
+.arabica-101 {
+    grid-area: 2/1/3/7;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.robusta-101 {
+    grid-area: 3/1/4/5;
+}
+
+.liberica-101 {
+    grid-area: 4/1/5/6;
+}
+
+.excelsa-101 {
+    grid-area: 5/1/5/6;
 }
 
 #form {
@@ -54,12 +83,14 @@ a:hover {
 
 #container-blend {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
 }
 
-header {
+#blend-header {
     grid-area: 1 / 1 / 2 / 5;
+    background-color: blueviolet;
+    padding: 5px;
 }
 
 .blend-item {
@@ -69,7 +100,8 @@ header {
     justify-content: center;
     border: 2px solid #000;
     border-radius: 5px;
-    max-width: 300px;
-    height: auto;
+    /* max-width: 300px; */
+    /* height: auto; */
     padding: 5px;
 }
+
