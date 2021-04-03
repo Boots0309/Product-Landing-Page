@@ -33,20 +33,35 @@ a {
 a:hover {
     background-color: blue;
 }
+#nav-bar > i {
+    display: none;
 
+}
 /* main area */
+    /* form element */
 
+.bg-img {
+    background-image: url(images/heroImage2.jpg);
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+}
+
+#form {
+    display: grid;
+    justify-content: center;
+}
+
+
+/*  */
 #container-101 {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-}
-
-#form {
     margin-top: 100px;
 }
-
-
 
 
 .blend-item {
